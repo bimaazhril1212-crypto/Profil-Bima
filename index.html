@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Bima Azhril Aristyawan</title>
+    <!-- Memuat Font Awesome untuk ikon media sosial -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Memuat Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: transparent;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-card {
+            background: linear-gradient(135deg, #1f2937, #111827);
+            width: 100%;
+            max-width: 420px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            text-align: center;
+            color: #ffffff;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .profile-header {
+            background: linear-gradient(135deg, #6366f1, #a855f7);
+            height: 100px;
+            position: relative;
+        }
+
+        .profile-img-container {
+            position: relative;
+            width: 110px;
+            height: 110px;
+            margin: -55px auto 0 auto;
+            border-radius: 50%;
+            padding: 4px;
+            background: #111827;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .profile-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .profile-body {
+            padding: 20px 25px 30px 25px;
+        }
+
+        .name {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #f3f4f6;
+        }
+
+        .bio {
+            font-size: 13px;
+            color: #9ca3af;
+            margin-bottom: 20px;
+            line-height: 1.5;
+        }
+
+        .info-list {
+            text-align: left;
+            margin-bottom: 25px;
+            background: rgba(255, 255, 255, 0.03);
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .info-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            font-size: 14px;
+            color: #d1d5db;
+        }
+
+        .info-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-item i {
+            color: #818cf8;
+            width: 25px;
+            font-size: 16px;
+            text-align: center;
+            margin-right: 10px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .social-btn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.08);
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .social-btn:hover {
+            transform: scale(1.1);
+        }
+
+        .social-btn.tiktok:hover { background: #000000; border-color: #fe2c55; color: #fe2c55; }
+        .social-btn.youtube:hover { background: #ff0000; border-color: #ff0000; }
+        .social-btn.instagram:hover { background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); border: none; }
+        .social-btn.email:hover { background: #ea4335; border-color: #ea4335; }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <div class="profile-header"></div>
+        
+        <div class="profile-img-container">
+            <!-- Ganti URL gambar di bawah dengan foto profil Anda -->
+            <img src="https://i.postimg.cc/Zqdt2mVx/IMG-20261012-114808-627.webp" alt="Foto Profil" class="profile-img">
+        </div>
+
+        <div class="profile-body">
+            <!-- Ganti nama Anda di sini -->
+            <h1 class="name">Bima Azhril Aristyawan</h1>
+            <!-- Ganti profil/deskripsi singkat Anda di sini -->
+            <p class="bio">Halo! Selamat datang di halaman profil saya. Saya adalah seorang kreator konten dan penggemar teknologi.</p>
+
+            <div class="info-list">
+                <!-- Ganti Alamat Anda di sini -->
+                <div class="info-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Ds. Kaligunting Dsn. Bungkus RT-13 RW-04, Caruban</span>
+                </div>
+                <!-- Ganti Email Anda di sini -->
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>bimaazhril1212@gmail.com</span>
+                </div>
+            </div>
+
+            <!-- Tombol Media Sosial (Ganti link '#' dengan link akun sosial media Anda) -->
+            <div class="social-icons">
+                <a href="https://www.tiktok.com/@bringkss?_r=1&_t=ZS-9AXGL2WXdpQ" target="_blank" class="social-btn tiktok" title="TikTok">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+                <a href="https://youtube.com/@username_youtube" target="_blank" class="social-btn youtube" title="YouTube">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+                <a href="https://instagram.com/brinksss000?cplk=NjlicGVtOTU3b2Np" target="_blank" class="social-btn instagram" title="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="mailto:emailanda@domain.com" class="social-btn email" title="Email">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
